@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+div{
+padding:5px;
+display:inline-block;
+float:left;
+}
+body {
+    background-color:#0066FF ;
+}
+.bow{
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.zero{
+color:#0033CC;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.one img{
+padding:5px;
+width:800px;
+height:585px;}
+.two img{
+width:230px;
+height:160px;
+}
+.three img{
+border:10px;
+width:230px;
+height:160px;}
+.four img{
+width:230px;
+height:160px;
+}
+.five img{
+width:230px;
+height:160px;
+}
+.six img{
+width:230px;
+height:160px;
+}
+.seven img{
+width:230px;
+height:160px;
+}
+</style>
+<script>
+function myFunction(){
+document.getElementById("demo").src="CIMG2691.jpg";
+}
+function myConfusion(){
+document.getElementById("demo").src="13 Chicago_1403705483768_6518218_ver1.0_640_480.jpg";
+}
+function myIllusion(){
+document.getElementById("demo").src="download.jpg";
+}
+function myRed(){
+document.getElementById("demo").src="101995929.jpg";
+}
+function myBlue(){
+document.getElementById("demo").src="amtrak-train-approaching-union-station_chicago.jpg";
+}
+function myGreen(){
+document.getElementById("demo").src="3602500493_e9ce4e38ee.jpg";
+}
+</script>
+</head>
+<body>
+<hr>
+<h1 class="zero" align="center"><strong>CHICAGO TRIP</strong></h1><hr>
+<h3 class="bow">CLICK ON OTHER PICTURE TO CHANGE PROFILE PICTURE</h3>
+<div class="one">
+<img id="demo" style="border:5px solid black" src="dff18b_558c7a9a9dde4ebabe5a191f7f2d536f.jpg" >
+
+</div>
+<div class="two">
+<img src="CIMG2691.jpg" onclick="myFunction()">
+</div>
+<div class="three">
+<img src="13 Chicago_1403705483768_6518218_ver1.0_640_480.jpg" onclick="myConfusion()">
+</div>
+<div class="four">
+<img src="download.jpg" onclick="myIllusion()">
+</div>
+<div class="five">
+<img src="101995929.jpg" onclick="myRed()">
+</div>
+<div class="six">
+<img src="amtrak-train-approaching-union-station_chicago.jpg" onclick="myBlue()">
+</div>
+<div class="seven">
+<img src="3602500493_e9ce4e38ee.jpg" onclick="myGreen()">
+</div>
+</body>
+</html>
